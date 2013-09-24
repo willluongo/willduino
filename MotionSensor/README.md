@@ -14,3 +14,17 @@ Bill of Materials
 |     1	    | Arduino Uno (Rev3) |                             |
 |     1	    | PIR sensor	     |                             |
 |     2     | 220 Ω Resistor     |                             |
+
+Breadboard Layout
+-----------------
+
+![][breadboard]
+
+Schematic
+---------
+![][schematic]
+
+
+[schematic]: MotionSensor_schem.png "Schematic"
+[breadboard]: MotionSensor_bb.png "Breadboard Layout"
+
