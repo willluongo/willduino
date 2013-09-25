@@ -11,8 +11,7 @@ void setup()
 
 void loop() 
 {
-	int result = digitalRead(SENSOR_PIN);
-	if (result == 1)
+ 	if (digitalRead(SENSOR_PIN) == HIGH)
 	{
 		digitalWrite(RED_PIN, HIGH);
 		digitalWrite(GREEN_PIN, LOW);  
